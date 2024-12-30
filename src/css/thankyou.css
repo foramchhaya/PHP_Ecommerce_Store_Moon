@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.thank-you-section {
+    padding: 40px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+p,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+.thank-you-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thankyou-sec .thank-you-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#empty-cart .thank-you-card {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.thank-you-card img {
+    width: 60%;
+    height: auto;
+}
+.order-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.order-detail p{
+    padding: 0px 30px;
+}
+#empty-cart h1 {
+    color: #000 !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.thank-you-card h1 {
+    color: #28a745;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.thank-you-card p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.thank-you-actions {
+    margin-top: 20px;
+}
+
+.thank-you-actions .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    color: #d5a770;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.thank-you-actions .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
